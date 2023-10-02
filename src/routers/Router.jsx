@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import AuthLayout from "../layouts/AuthLayout";
 import Register from "../components/auth/Register";
 import Login from "../components/auth/Login";
+import NotFound from "../pages/NotFound";
 
 const Router = () => {
   // use protected routes for authenticated users (i.e: UserRoute & AdminRoute or make more if you've to)..
