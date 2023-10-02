@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+
+
+/* Imported stylesheets */
+
+/* Note only compiled css file will be imported, not the sccs or sass files.
+Please make sure you have Live Sass Compiler installed in your vs code,
+and never forget to start Watch Sass when you're coding scss or sass otherwise it won't compile into css file. */
+
+/* pages css files */
+@import url('styles/pages/auth.css');
+
+/* components css files */
+@import url('styles/pages/login.css');
+@import url('styles/pages/register.css');
