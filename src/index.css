@@ -5,10 +5,6 @@ body {
 
 /* Imported stylesheets */
 
-/* Note only compiled css file will be imported, not the sccs or sass files.
-Please make sure you have Live Sass Compiler installed in your vs code,
-and never forget to start Watch Sass when you're coding scss or sass otherwise it won't compile into css file. */
-
 /* pages css files */
 @import 'styles/pages/auth.css';
 
